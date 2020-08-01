@@ -10,3 +10,5 @@ teamStats = pd.read_csv('/Users/adamali/Desktop/nbaPredictor/Data/nbaStats2020.c
 
 teamPointsAvg = teamStats.dropna().PTS.mean()
 print(teamPointsAvg)
+
+print("The Team Points Average is %.2f" % (teamPointsAvg))
